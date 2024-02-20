@@ -1,0 +1,70 @@
+ERROR - 2023-02-01 13:30:34 --> mysqli_sql_exception: Duplicate entry '124' for key 'PRIMARY' in C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Database\BaseBuilder.php(2294): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Model.php(728): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\app\Controllers\AppController.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\CodeIgniter.php(934): App\Controllers\AppController->proses_tambah_pegawai()
+#9 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+#10 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-01 13:30:34 --> Duplicate entry '124' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2294): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pegawai` (`nip`, `nama`, `jk`, `tgl_lahir`, `alamat`) VALUES (:nip:, :nama:, :jk:, :tgl_lahir:, :alamat:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(728): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AppController.php(41): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_tambah_pegawai()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 13:30:44 --> mysqli_sql_exception: Duplicate entry '124' for key 'PRIMARY' in C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Database\BaseBuilder.php(2294): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\Model.php(728): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\app\Controllers\AppController.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\CodeIgniter.php(934): App\Controllers\AppController->proses_tambah_pegawai()
+#9 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+#10 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\skinfa\codeigniter4-framework-f83c211\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-01 13:30:44 --> Duplicate entry '124' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2294): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pegawai` (`nip`, `nama`, `jk`, `tgl_lahir`, `alamat`) VALUES (:nip:, :nama:, :jk:, :tgl_lahir:, :alamat:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(728): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AppController.php(41): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_tambah_pegawai()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:46:40 --> Invalid file: "editt_pegawai.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editt_pegawai.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editt_pegawai', [], true)
+ 3 APPPATH\Controllers\AppController.php(71): view('editt_pegawai', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->edit_pegawai('124')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:48:29 --> Invalid file: "editt_pegawai.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editt_pegawai.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editt_pegawai', [], true)
+ 3 APPPATH\Controllers\AppController.php(71): view('editt_pegawai', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->edit_pegawai('124')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

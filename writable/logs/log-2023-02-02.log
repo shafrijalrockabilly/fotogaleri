@@ -1,0 +1,54 @@
+CRITICAL - 2023-02-02 08:36:26 --> Call to a member function getName() on null
+in APPPATH\Controllers\AppController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_edit_pegawai()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 08:41:41 --> Call to a member function getName() on null
+in APPPATH\Controllers\AppController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_edit_pegawai()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 08:41:44 --> Call to a member function getName() on null
+in APPPATH\Controllers\AppController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_edit_pegawai()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 08:41:49 --> Call to a member function getName() on null
+in APPPATH\Controllers\AppController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_edit_pegawai()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 08:42:41 --> Call to a member function getName() on null
+in APPPATH\Controllers\AppController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_edit_pegawai()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 08:44:18 --> Call to a member function getName() on null
+in APPPATH\Controllers\AppController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_edit_pegawai()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 08:46:31 --> Call to a member function getName() on null
+in APPPATH\Controllers\AppController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_edit_pegawai()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 08:46:49 --> Call to a member function getName() on null
+in APPPATH\Controllers\AppController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_edit_pegawai()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 08:47:30 --> Call to a member function getName() on null
+in APPPATH\Controllers\AppController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->proses_edit_pegawai()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
